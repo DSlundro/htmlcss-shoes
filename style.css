@@ -1,1 +1,55 @@
 *{margin: 0;padding: 0;box-sizing: border-box;}
+body{font-family: 'Dela Gothic One', cursive;}
+
+
+
+
+main{margin: 0 auto;}
+a{text-decoration:none;}
+a:link{color :black;}
+a:hover{color: red;}
+li:hover{box-shadow: 0 0 10px; font-weight: bold;}
+a:active{color: black;}
+a:visited{color: black;}
+a:visited:hover{color: black;}
+h2{
+    font-size: 2.8rem; 
+    word-spacing: 50px;
+    text-transform: uppercase;
+}
+nav{
+    position: absolute;
+    position: fixed;
+    right: 10px;
+    z-index: 999999;
+}
+li{
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding-top: 7px;
+    margin: 50px 15px 15px 15px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgb(179, 179, 179);
+}
+
+#red{background-color: red;}
+#green{background-color: green;}
+#yellow{background-color: yellow;}
+#red, #green, #yellow{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.yellow_text{ color: yellow;}
+.green_text{ color: green;}
+.text_space{
+    background-color: black;
+    width: 800px;
+}
+
+
